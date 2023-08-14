@@ -29,7 +29,9 @@ const Body = ({Notice, images2}) => {
         </Box>
         
         <Box>
-            <InformationInt/>
+            <BoxInformation
+                images2={images2}
+            />
         </Box>
 
         <Box>
@@ -49,9 +51,7 @@ const Body = ({Notice, images2}) => {
         </Box>
 
         <Box>
-            <BoxInformation
-                images2={images2}
-            />
+           
         </Box>
     </div>
 )

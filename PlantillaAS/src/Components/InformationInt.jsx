@@ -59,7 +59,6 @@ const InformationInt = () => {
                                         color='primary'
                                         sx={
                                             {
-                                                
                                                 fontSize:300,
                                             }
                                         }
